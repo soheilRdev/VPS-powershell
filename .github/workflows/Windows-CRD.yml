@@ -9,6 +9,9 @@ on:
       pincode:
         description: 'Six digit Pin:'
         required: true
+      test:
+            description: 'test'
+            required: false
   
 jobs:
   build:
